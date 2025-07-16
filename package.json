@@ -12,7 +12,9 @@
   "dependencies": {
     "@heroui/react": "^2.7.11",
     "@iconify/react": "^6.0.0",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.23.0",
+    "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3"

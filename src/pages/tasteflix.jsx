@@ -9,7 +9,7 @@ const TasteFlix = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <img
-          src="https://picsum.photos/1200/800?random=1"
+          src="/images/encabezado.png"
           alt="TasteFlix - App de cine"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -41,6 +41,8 @@ const TasteFlix = () => {
             Con un diseño minimalista y funcional, ofrece una experiencia fluida al explorar películas, ver listas, perfiles y guardar tus favoritos.
             Puedes navegar y buscar las listas con más likes, los perfiles con más seguidores y filtrar en tus búsquedas para encontrar justo lo que necesitas.
             Desarrollada desde cero.
+            Desarrollé esta aplicación durante mi primer año de formación, por ello no utiliza teconologías que aprendí
+            posteriormente como TailwindCSS, que me habría facilitado mucho el desarrollo de los estilos y de la UI responsiva.
           </p>
         </section>
 
@@ -55,6 +57,7 @@ const TasteFlix = () => {
             <h3 className="text-2xl font-semibold mb-4">Desafío</h3>
             <p className="text-gray-300">
               Crear una aplicación que ayudara a la gente a encontrar recomendaciones basadas en sus preferencias mediante una interfaz sencilla e intuitiva.
+              Conectada a una base de datos para almacenar usuarios, listas y recomendaciones.
             </p>
           </motion.div>
 
@@ -88,17 +91,26 @@ const TasteFlix = () => {
         </section>
 
         {/* Galería */}
-        <section className="max-w-6xl mx-auto">
+        <section className="w-full mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Galería</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=2" alt="Pantalla 1" className="w-full h-auto object-cover" />
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/perfilclaro.png" alt="Pantalla 1" className="w-full h-full object-cover" />
             </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=3" alt="Pantalla 2" className="w-full h-auto object-cover" />
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/crearlistaclaro.png" alt="Pantalla 2" className="w-full h-full object-cover" />
             </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=4" alt="Pantalla 3" className="w-full h-auto object-cover" />
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/buscarclaro.png" alt="Pantalla 3" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/likesclaro.png" alt="Pantalla 1" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/rankingsclaro.png" alt="Pantalla 2" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9] ">
+              <img src="/images/editarlistaclaro.png" alt="Pantalla 3" className="w-full h-full object-cover" />
             </motion.div>
           </div>
         </section>

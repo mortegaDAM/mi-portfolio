@@ -6,20 +6,26 @@ import Tasteflix from '../pages/tasteflix';
 import Lydia from '../pages/lydia';
 import { Link } from 'react-router-dom';
 
+  
+
+  
+  
+
+
 
 function Home() {
 const projects = [
   {
     title: "Portfolio personal",
     description: "Mi portafolio actual hecho con React, TailwindCSS y animaciones personalizadas.",
-    image: "https://picsum.photos/400/300?random=1",
+    image: "/images/portfolio.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     link: "/",
   },
   {
     title: "App de listas de recomendación",
     description: "Aplicación full-stack para crear listas de recomendaciones de películas, series, libros o resturantes.",
-    image: " https://picsum.photos/400/300?random=2",
+    image: " /images/TasteFlix.png",
     tags: ["React", "PostgreSQL", "FastAPI"],
     link: "/tasteflix",
   },
@@ -62,6 +68,7 @@ const itemVariants = {
   return (
     <main >
         <Navbar />
+        
         <div id='home' className="flex flex-col items-center justify-center min-h-svh w-full bg-gray-800 px-2 font-dosis text-gray-300">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -80,9 +87,11 @@ const itemVariants = {
             </h2>
             <span class=" h-[1px] w-8 sm:w-12 bg-violet-500"></span>
         </div>
-        <p className='text-gray-300 text-xl mb-4'>
-            Crafting complete and modern web solutions
+        
+        <p className='text-gray-300 text-xl mb-4 '>
+            Crafting complete and modern web solutions. 
         </p>
+      
         <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
