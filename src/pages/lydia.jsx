@@ -8,7 +8,7 @@ const Lydia = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <img
-          src=" https://picsum.photos/1200/800?random=5"
+          src=" /images/iniciolypsi.png"
           alt="Lydia - Proyecto Personal"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -84,17 +84,26 @@ const Lydia = () => {
         </section>
 
         {/* Galería */}
-        <section className="max-w-6xl mx-auto">
+        <section className="w-full mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Galería</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=6" alt="Captura 1" className="w-full h-auto object-cover" />
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/iniciolypsi.png" alt="Captura 1" className="w-full h-full object-cover" />
             </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=7" alt="Captura 2" className="w-full h-auto object-cover" />
+             <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/barranavlypsi.png" alt="Captura 1" className="w-full h-full object-cover" />
             </motion.div>
-            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-              <img src=" https://picsum.photos/800/600?random=8" alt="Captura 3" className="w-full h-auto object-cover" />
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/sobremilypsi.png" alt="Captura 1" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/precioslypsi.png" alt="Captura 2" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/especialidadeslypsi.png" alt="Captura 3" className="w-full h-full object-cover" />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg aspect-[16/9]">
+              <img src=" /images/contactolypsi.png" alt="Captura 3" className="w-full h-full object-cover" />
             </motion.div>
           </div>
         </section>

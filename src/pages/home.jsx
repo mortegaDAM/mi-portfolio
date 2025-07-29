@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Página web psicología",
     description: "Página web responsive para una psicóloga general sanitaria.",
-    image: " https://picsum.photos/400/300?random=3",
+    image: " /images/iniciolypsi.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     link: "/lydia",
   },
