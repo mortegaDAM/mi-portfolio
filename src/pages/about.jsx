@@ -91,10 +91,11 @@ const About = () => {
               Contáctame
             </a>
             <a
-              href="/#projects"
+              href="/CV.pdf" 
+              download="Mi_CV.pdf" 
               className="px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-lg font-medium transition"
             >
-              Desacrgar CV
+              Descargar CV
             </a>
           </div>
         </motion.div>
